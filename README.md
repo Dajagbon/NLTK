@@ -2,20 +2,20 @@
 
 ## Purpose
 
-The purpose of this project is to perform text processing and analysis on a set of text files. The project includes tokenization, stemming, lemmatization, part-of-speech tagging, named entity recognition, and n-gram frequency analysis. The results are stored and displayed for each text file.
+This project's purpose is to perform text processing and analysis on a set of text files. It includes tokenization, stemming, lemmatization, part-of-speech tagging, named entity recognition, and n-gram frequency analysis. The results are stored and displayed for each text file.
 
 ## Project Structure
 
 The project consists of a single Python script, `NLTK.py`, which performs the following tasks:
 
-1. **Download necessary NLTK data**: Ensures that all required NLTK data packages are available.
-2. **Define file paths**: Specifies the paths to the text files to be processed.
+1. **Download necessary NLTK data**: Ensures all required NLTK data packages are available.
+2. **Define file paths**: Specify the paths to the text files to be processed.
 3. **Process each text file**: Reads the content of each text file, performs various text processing tasks, and stores the results.
 4. **Display results**: Prints the most common words, most common trigrams, and the number of named entities for each text file.
 
 ## Implementation
 
-The project does not use custom classes but relies on functions and standard Python libraries to perform the tasks. Below is an explanation of the key components:
+The project does not use custom classes but uses functions and standard Python libraries to perform the tasks. Below is an explanation of the key components:
 
 ### Functions
 
@@ -32,7 +32,7 @@ The project does not use custom classes but relies on functions and standard Pyt
   - `word_freq` (Counter): The frequency distribution of lemmatized tokens.
   - `ngrams_list` (list): The list of n-grams created from lemmatized tokens.
   - `ngrams_freq` (Counter): The frequency distribution of n-grams.
-  - `pos_tags` (list): The list of part-of-speech tags for the tokens.
+  - `pos_tags` (list): The list of token part-of-speech tags.
   - `named_entities` (Tree): The named entity tree obtained from named entity recognition.
   - `named_entity_count` (int): The count of named entities in the text.
 - **Returns**: None (results are stored in global dictionaries).
@@ -63,11 +63,14 @@ python NLTK.py
 
 The script will print the most common words, most common trigrams, and the number of named entities for each text file.
 
-Dependencies
+**Dependencies**
 
-Python 3.x
-NLTK
-Collections
+- Python 3.x
+
+- NLTK
+
+- Collections
+
 Ensure you have the necessary libraries installed by running:
 
 **pip install nltk**
