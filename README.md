@@ -1,4 +1,3 @@
-# NLTK
 # Text Processing and Analysis Project
 
 ## Purpose
@@ -7,14 +6,14 @@ The purpose of this project is to perform text processing and analysis on a set 
 
 ## Project Structure
 
-The project consists of a single Python script, `Testing.py`, which performs the following tasks:
+The project consists of a single Python script, `NLTK.py`, which performs the following tasks:
 
 1. **Download necessary NLTK data**: Ensures that all required NLTK data packages are available.
 2. **Define file paths**: Specifies the paths to the text files to be processed.
 3. **Process each text file**: Reads the content of each text file, performs various text processing tasks, and stores the results.
 4. **Display results**: Prints the most common words, most common trigrams, and the number of named entities for each text file.
 
-## Class Design and Implementation
+## Implementation
 
 The project does not use custom classes but relies on functions and standard Python libraries to perform the tasks. Below is an explanation of the key components:
 
@@ -60,4 +59,4 @@ The project does not use custom classes but relies on functions and standard Pyt
 To process a set of text files and display the results, run the script with the following command:
 
 ```sh
-python Testing.py
+python NLTK.py
