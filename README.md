@@ -60,3 +60,18 @@ To process a set of text files and display the results, run the script with the 
 
 ```sh
 python NLTK.py
+
+The script will print the most common words, most common trigrams, and the number of named entities for each text file.
+
+Dependencies
+
+Python 3.x
+NLTK
+Collections
+Ensure you have the necessary libraries installed by running:
+
+**pip install nltk**
+
+## Conclusion
+
+This project provides a comprehensive text processing and analysis tool using NLTK. It demonstrates the use of various NLP techniques and provides a foundation for further text analysis and processing tasks.
