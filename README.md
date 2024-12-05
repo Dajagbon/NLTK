@@ -58,7 +58,7 @@ The project does not use custom classes but relies on functions and standard Pyt
 
 To process a set of text files and display the results, run the script with the following command:
 
-```sh
+
 python NLTK.py
 
 The script will print the most common words, most common trigrams, and the number of named entities for each text file.
